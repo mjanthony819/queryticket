@@ -1,0 +1,139 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "mode": "live Groq inference",
+  "dataset": "16 synthetic semantic paraphrases, manually labelled; not independent real-world validation",
+  "correct": 16,
+  "total": 16,
+  "items": [
+    {
+      "id": "B01",
+      "text": "At full power the camera lasts twelve minutes before it dies.",
+      "predicted": "battery",
+      "expected": "battery",
+      "evidence": "At full power",
+      "correct": true
+    },
+    {
+      "id": "B02",
+      "text": "The power indicator drops from full to empty in one short shoot.",
+      "predicted": "battery",
+      "expected": "battery",
+      "evidence": "power indicator drops from full to empty",
+      "correct": true
+    },
+    {
+      "id": "B03",
+      "text": "Plugged in all evening, yet the unit refuses to power up.",
+      "predicted": "battery",
+      "expected": "battery",
+      "evidence": "refuses to power up",
+      "correct": true
+    },
+    {
+      "id": "B04",
+      "text": "The rechargeable pack goes flat in the middle of every session.",
+      "predicted": "battery",
+      "expected": "battery",
+      "evidence": "rechargeable pack goes flat",
+      "correct": true
+    },
+    {
+      "id": "F01",
+      "text": "Every portrait looks soft although the background is sharp.",
+      "predicted": "focus",
+      "expected": "focus",
+      "evidence": "looks soft",
+      "correct": true
+    },
+    {
+      "id": "F02",
+      "text": "The lens keeps racking back and forth and never locks on the face.",
+      "predicted": "focus",
+      "expected": "focus",
+      "evidence": "never locks on the face",
+      "correct": true
+    },
+    {
+      "id": "F03",
+      "text": "Subjects are fuzzy, but distant buildings look crisp.",
+      "predicted": "focus",
+      "expected": "focus",
+      "evidence": "Subjects are fuzzy",
+      "correct": true
+    },
+    {
+      "id": "F04",
+      "text": "Half pressing the shutter never finds a sharp subject.",
+      "predicted": "focus",
+      "expected": "focus",
+      "evidence": "never finds a sharp subject",
+      "correct": true
+    },
+    {
+      "id": "D01",
+      "text": "The courier arrived three days beyond the promised window.",
+      "predicted": "delivery",
+      "expected": "delivery",
+      "evidence": "courier arrived",
+      "correct": true
+    },
+    {
+      "id": "D02",
+      "text": "The cardboard box was soaking wet when it reached my door.",
+      "predicted": "delivery",
+      "expected": "delivery",
+      "evidence": "cardboard box was soaking wet",
+      "correct": true
+    },
+    {
+      "id": "D03",
+      "text": "Tracking has not moved for a week and the item is not here.",
+      "predicted": "delivery",
+      "expected": "delivery",
+      "evidence": "Tracking has not moved",
+      "correct": true
+    },
+    {
+      "id": "D04",
+      "text": "The outer wrapping was crushed in transit.",
+      "predicted": "delivery",
+      "expected": "delivery",
+      "evidence": "outer wrapping was crushed",
+      "correct": true
+    },
+    {
+      "id": "O01",
+      "text": "Where can I get a longer shoulder strap?",
+      "predicted": "other",
+      "expected": "other",
+      "evidence": "longer shoulder strap",
+      "correct": true
+    },
+    {
+      "id": "O02",
+      "text": "Please send a digital copy of the instruction booklet.",
+      "predicted": "other",
+      "expected": "other",
+      "evidence": "digital copy of the instruction booklet",
+      "correct": true
+    },
+    {
+      "id": "O03",
+      "text": "Does this model come in silver?",
+      "predicted": "other",
+      "expected": "other",
+      "evidence": "come in silver",
+      "correct": true
+    },
+    {
+      "id": "O04",
+      "text": "The receipt has the wrong business name.",
+      "predicted": "other",
+      "expected": "other",
+      "evidence": "wrong business name",
+      "correct": true
+    }
+  ],
+  "output_hash": "418ef75bd20ecb65d3b1ad1dff1ee08346e1a9f631f30d8095610b2da225640c",
+  "note": "This evaluation does not replace shipped 200-record ground-truth reports. No production accuracy/privacy claim."
+}
